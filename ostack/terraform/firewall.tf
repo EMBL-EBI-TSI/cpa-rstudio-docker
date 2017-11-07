@@ -1,11 +1,11 @@
-resource "openstack_compute_secgroup_v2" "allow-galaxy" {
-  name        = "${var.name}-allow-galaxy"
+resource "openstack_compute_secgroup_v2" "allow-rstudio" {
+  name        = "${var.name}-allow-rstudio"
   description = "Allow ${var.name} traffic"
 
   rule {
     ip_protocol = "tcp"
-    from_port   = 8021
-    to_port     = 8021
+    from_port   = 8787
+    to_port     = 8787
     cidr        = "0.0.0.0/0"
   }
 
