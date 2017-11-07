@@ -1,11 +1,9 @@
 {
     "applicationName": "RStudio Docker",
-        "contactEmail": "gianni@ebi.ac.uk",
+        "contactEmail": "gianni@ebi.ac.uk, jdianes@ebi.ac.uk",
         "about": "As RStudio Docker, the docker environment is executed on top of a CoreOS hypervisor",
         "version": "0.1a",
         "cloudProviders": [
-            { "cloudProvider": "GCP", "path": "gcp",
-            "inputs": ["disk_size", "project", "subnet"]},
             { "cloudProvider":"OSTACK","path":"ostack",
             "inputs": ["floatingip_pool", "machine_type"]}
         ],
