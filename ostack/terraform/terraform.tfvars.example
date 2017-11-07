@@ -1,0 +1,8 @@
+floatingip_pool    = "net_external"
+key_name           = "dev-key"
+machine_type       = "s1.modest"
+net                = "net_name"
+
+#disk_image         = "coreos-stable"
+#docker_ports       = "-p 8080:80 -p 8021:21"
+#docker_repository  = "bgruening/galaxy-stable"
