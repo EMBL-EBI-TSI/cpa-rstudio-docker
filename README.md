@@ -1,5 +1,6 @@
-#TSI Cloud Portal - galaxy docker
-A Galaxy Docker container executed on top of a CoreOS virtual machine instance.
+# EBI Cloud Portal - RStudio docker  
+
+An RStudio Docker container executed on top of a CoreOS virtual machine instance.
 
 ---
-Galaxy Docker reference: [https://hub.docker.com/r/bgruening/galaxy-stable/](https://hub.docker.com/r/bgruening/galaxy-stable/)
+RStudio Docker reference: [https://hub.docker.com/r/rocker/rstudio/](https://hub.docker.com/r/rocker/rstudio/)
