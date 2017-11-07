@@ -15,7 +15,7 @@ variable "docker_repository" {
 }
 
 variable "docker_ports" {
-  default = "-p 80:80 -p 8021:21"
+  default = "-p 80:80 -p 8021:21 -p 8787:8787"
 }
 
 #### OpenStack ####
